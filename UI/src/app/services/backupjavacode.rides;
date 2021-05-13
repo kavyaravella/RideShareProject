@@ -1,0 +1,82 @@
+package com.darshank.first.rides;
+
+import java.util.Date;
+
+public class ResponseDataPOJO {
+
+	private Integer dropsTo;
+	private Integer dropzipcode;
+	private Integer pickupsFrom;
+	private Integer pickupzipcode;
+
+	private Double count;
+	private String driver;
+
+	private Integer bookedOnCount;
+	private Integer cancelledOn;
+	
+	private Date booked_on_date;
+	private Date cancelled_on_date;
+	public Integer getDropsTo() {
+		return dropsTo;
+	}
+	public void setDropsTo(Integer dropsTo) {
+		this.dropsTo = dropsTo;
+	}
+	public Integer getDropzipcode() {
+		return dropzipcode;
+	}
+	public void setDropzipcode(Integer dropzipcode) {
+		this.dropzipcode = dropzipcode;
+	}
+	public Integer getPickupsFrom() {
+		return pickupsFrom;
+	}
+	public void setPickupsFrom(Integer pickupsFrom) {
+		this.pickupsFrom = pickupsFrom;
+	}
+	public Integer getPickupzipcode() {
+		return pickupzipcode;
+	}
+	public void setPickupzipcode(Integer pickupzipcode) {
+		this.pickupzipcode = pickupzipcode;
+	}
+	public Double getCount() {
+		return count;
+	}
+	public void setCount(Double count) {
+		this.count = count;
+	}
+	public String getDriver() {
+		return driver;
+	}
+	public void setDriver(String driver) {
+		this.driver = driver;
+	}
+	public Integer getBookedOnCount() {
+		return bookedOnCount;
+	}
+	public void setBookedOnCount(Integer bookedOnCount) {
+		this.bookedOnCount = bookedOnCount;
+	}
+	public Integer getCancelledOn() {
+		return cancelledOn;
+	}
+	public void setCancelledOn(Integer cancelledOn) {
+		this.cancelledOn = cancelledOn;
+	}
+	public Date getBooked_on_date() {
+		return booked_on_date;
+	}
+	public void setBooked_on_date(Date booked_on_date) {
+		this.booked_on_date = booked_on_date;
+	}
+	public Date getCancelled_on_date() {
+		return cancelled_on_date;
+	}
+	public void setCancelled_on_date(Date cancelled_on_date) {
+		this.cancelled_on_date = cancelled_on_date;
+	}
+	
+	
+}
